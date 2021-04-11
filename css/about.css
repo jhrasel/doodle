@@ -1,0 +1,746 @@
+.all-overflow {
+    overflow: hidden;
+}
+
+.navbar {
+    height: 80px;
+}
+
+#company .m-phon .phone {
+    color: #000;
+}
+
+#company .m-phon .phone path {
+    fill: #000;
+}
+
+#company .nav-item .nav-link {
+    color: #000;
+    line-height: 50px;
+}
+#cycle{
+    margin-top: 175px;
+}
+#cycle h2{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 65px;
+/* identical to box height, or 162% */
+color: #000000;
+}
+
+#company #mh_why_us {
+    background: #F7F7F7;
+    height: auto;
+    min-height: 0px;
+    padding: 0;
+}
+
+
+@import 'css/common.css';
+.container {
+    max-width: 1380px;
+}
+/* =========================== CSS DIGITAL SOLUTION PART START =========================== */
+#digital-solution{
+    background: #ffffff;
+    padding-top: 228px;
+    padding-bottom: 160px;
+}
+#digital-solution .container{
+    max-width: 1380px;
+}
+.digital-part{
+    position: relative;
+    z-index: 9;
+}
+.digital-part p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 83px;
+    text-align: center;
+    color: #000000;
+    width: 95%;
+}
+
+.digital-part .digital-overlay{
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+/* =========================== CSS DIGITAL SOLUTION PART END =========================== */
+
+.container{
+    position: relative;
+}
+.image_container{
+    display: inline-block;
+    width: 100%;
+
+}
+
+.image_holder{
+height: 50vh;
+overflow: hidden;
+position: relative;
+padding: 0px 15px;
+max-height: 614px;
+}
+.image_holder img{
+position: absolute;
+height: 120%;
+width: 100%;
+
+}
+.image_details  p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 188px;
+    color: #666666;
+}
+#value_slider {
+    margin-top: 175px;
+    margin-bottom: 175px;
+}
+.value_slider_heading h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+}
+.values{
+    background: #F7F7F7;
+    padding: 53px 40px;
+    margin: 0px 15px;
+}
+.all_values{
+    margin-top: 60PX;
+   
+}
+@media screen and (min-width:1836px){
+    .all_values{
+        margin-left: 240px;
+    }
+}
+div.values_no{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 77px;
+    color: #E2E2E2;
+    padding-bottom: 30px;
+}
+.values_heading h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+    width: 78%;
+    padding-bottom: 23px;
+}
+div.values_desc{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+}
+.value_slider_heading{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 65px;
+/* identical to box height, or 162% */
+
+
+color: #000000;
+} 
+
+#counter{
+    background: #F48039;
+    padding: 85px 0px;
+    color: white;
+    text-align: center;
+}
+#counter h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+#counter p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px ;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+/* Why us sections css started from here  */
+#we_are_doing{
+    margin-top: 175px;
+    margin-bottom: 95px;
+    background: #F7F7F7;
+    padding: 210px 0px;
+    padding-bottom: 95px;
+}
+
+#mh_why_us h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+    max-width:315px;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+
+.mh_why_us_tabs {
+    margin-top: 15px;
+}
+#mh_why_us .nav-tabs {
+    border-bottom: none ;
+}
+
+#mh_why_us .nav {
+    display: block;
+    list-style: disc;
+}
+
+#mh_why_us li {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    color: #000000;
+    
+}
+#mh_why_us li.nav-item a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    
+}
+#mh_why_us li.nav-item a:active{
+   
+}
+
+.mh_why_us_tabs li a {
+    text-decoration: none;
+    color: #dddddd;
+    font-weight: 500;
+    font-family: 'Rubik';
+    
+}
+.mh_why_us_tabs a.active {
+    color: #000000;
+
+}
+
+.mh_why_us_details p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px; 
+    color: #666666;
+    margin-top: 203px;
+}
+
+#we_are_doing img {
+    width: 100% ;
+    margin: auto;
+    padding-right: 30px;
+
+}
+@media screen and (max-width:1380px){
+    #we_are_doing img {
+        width: 76% ;
+        margin: auto;
+        margin-top: 54px;
+    }
+}
+@media screen and (max-width:992px){
+    #we_are_doing img {
+        width: 25% ;
+        margin: auto;
+        margin-top: -54px;
+        padding-right: 0px;
+    }
+
+    #mh_why_us h1 {
+        font-size: 30px !important;
+        max-width: 100%;
+        text-align: center;
+    }
+    #mh_why_us .nav {
+        text-align: center;
+    }
+}
+
+.doing_elements{
+    padding: 0px 0px ;
+    padding-left: 15px;
+}
+
+
+.first_row {
+    margin: auto;
+}
+.first_row h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    width: 100%;
+    padding-top: 30px;
+}
+.first_row p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #666666;
+    margin: auto;
+    max-width: 743px;
+    width: 100%;
+    margin-top: 50px;
+}
+.mh_tech_box {
+    background-color: #f7f7f7;
+    padding: 70px 25px;
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.mh_tech_box h5 {
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+.mh_tech_box p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    width: 100%;
+    text-align: center;
+    color: #666666;
+    padding: 0px 55px;
+    padding-top: 10px;
+}
+.tech_rows{
+    text-align: center;
+    margin-top: 60px;
+}
+/* why us sections css ended from here  */
+
+
+/* Code for attr section started  */
+
+#attr{
+    margin-top: 75px;
+}
+.attr_heading_texts h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.attr_heading_texts p{
+    max-width: 636px;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+
+}
+
+
+/* Code for attr sections ended  */
+
+/* code for digital section started */
+
+/* =========================== CSS DIGITAL SOLUTION PART START =========================== */
+#digital-solution{
+    background: #ffffff;
+    padding-top: 210px;
+    padding-bottom: 175px;
+}
+#digital-solution .container{
+    max-width: 1380px;
+}
+.digital-part{
+    position: relative;
+    z-index: 0;
+}
+.digital-part h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    padding: 0 160px;
+    padding-bottom: 25px;
+    line-height: 65px
+}
+.another_digital_part h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    padding: 0 160px;
+    padding-bottom: 25px;
+    line-height: 65px
+}
+.another_digital_part p {
+    font-size: 16px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 30px;
+    width: 100%;
+}
+.digital-part .digital-overlay{
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+/* =========================== CSS DIGITAL SOLUTION PART END =========================== */
+
+
+/* code for digital section has ended  */
+
+
+
+
+
+
+/* ====================================================== RASEL MEDIA PART START ====================================================== */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #company .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #company .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    #company #digital-solution {
+        padding-top: 170px;
+    }
+    .values_heading h2 {
+        padding-bottom: 30px;
+    }
+    .attr_heading_texts h2 {
+        padding-bottom: 30px;
+    }
+}
+
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #company .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #company .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    #company .digital-part p {
+        font-size: 30px;
+        line-height: 60px;
+        text-align: center;
+    }
+    #company #digital-solution {
+        padding-top: 260px;
+        padding-bottom: 250px;
+    }
+    
+    .values_heading h2 {
+        padding-bottom: 30px;
+    }
+    .mh_tech_box p {
+        max-width: inherit;
+    }
+    .attr_heading_texts h2 {
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+    .digital-part .digital-overlay {
+        top: -110px;
+    }
+    .image_details  p {
+        padding: 0px 100px;
+    }
+    div.values_desc {
+        font-size: 14px;
+    }
+    .attr_heading_texts p {
+        font-size: 14px;
+    }
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #company .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #company .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    #company .digital-part p {
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+    }
+    #company #digital-solution {
+        padding-top: 180px;
+        padding-bottom: 180px;
+    }
+    .values_heading h2 {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+    #company #mh_why_us h1 {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    #company .mh_tech_box p {
+        font-size: 16px;
+        max-width: inherit;
+        padding-top: 15px;
+    }
+    .attr_heading_texts h2 {
+        padding-bottom: 30px;
+    }
+    .attr_heading_texts p {
+        font-size: 15px;
+    }
+    #company .digital-part p {
+        font-size: 24px;
+    }
+    #mh_why_us h1 {
+        margin-left: -15px;
+    }
+    .doing_elements {
+        padding-bottom: 0;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #company .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #company .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    .navbar .logo-area .m-phon {
+        display: none;
+    }
+    #company .digital-part p {
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+    }
+    #company #digital-solution {
+        padding-top: 58px;
+        padding-bottom: 0px;
+    }
+    #company .digital-part .digital-overlay {
+        top: -35px;
+    }
+    .image_details  p {
+        font-size: 14px;
+        text-align: justify !important;
+        padding: 0 10px;
+    }
+    .value_slider_heading h2 {
+        font-size: 35px;
+    }
+    .values_heading h2 {
+        font-size: 20px;
+    }
+    #cycle h2 {
+        font-size: 35px;
+    }
+    #company #mh_why_us h1 {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+    #company .first_row h2 {
+        font-size: 30px;
+    }
+    #company .attr_heading_texts h2 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    #company .attr_heading_texts p {
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+    #company .digital-part h2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    #company .digital-part p {
+        font-size: 19px;
+        line-height: 40px;
+    }
+
+}
+@media (max-width: 460px) {
+    #company .digital-part p{
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .digital-part{
+        padding: 0px;
+        margin-top: 125px;
+    }
+    #about_page_pictures{
+        margin-top: 125px;
+        padding: 0px !important;
+    }
+    #attr .attr_heading_texts{
+        margin-top: 30px;
+    }
+}
+
+
+
+/* Responsive for laptop screen */
+@media screen and (max-width: 1440px){
+
+   .digital-part p{
+       font-size: 48px;
+   }
+   .another_digital_part p{
+    font-size: 25px;
+    line-height: 40px;
+}
+.another_digital_part h2 {
+    font-size: 28px;
+}
+}
+@media screen and  (max-width: 768px){
+.digital-part p {
+    font-size: 30px;
+    padding-top: 0px;
+}
+.another_digital_part p {
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.another_digital_part h2 {
+    font-size: 28px;
+}
+
+.another_digital_part h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    padding-bottom: 0px;
+    line-height: 65px;
+}
+
+
+/* What we know responsive  */
+
+@media screen and (max-width:1520px){
+    .doing_elements {
+        padding: 135px 20px;
+    }
+}
+@media screen and (max-width: 1440px){
+    #mh_why_us h1 {
+        font-size: 25px;
+    }
+    #mh_why_us li.nav-item a {
+        font-size: 15px;
+    }
+    .mh_why_us_details p {
+        margin-top: 73px;
+    }
+}
+@media screen and (max-width:1401px){
+    .d_image{
+        text-align: center;
+    }
+}
+}
+.doing_elements .li_dots {
+    font-size: 9px;
+    margin-top: 7px;
+    position: absolute;
+    margin-left: -17px;
+}
+
+@media screen and (max-width:1000px){
+    #counter h3{
+        font-size: 30px;
+    }
+    #counter p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:576px){
+    #counter .row div{
+        margin-bottom: 60px;
+    }
+    #counter .row div:last-child{
+        margin-bottom: 0px;
+    }
+    
+}
+@media screen and (max-width:769px){
+    #we_are_doing {
+        padding: 0px 0px;
+
+    }
+}

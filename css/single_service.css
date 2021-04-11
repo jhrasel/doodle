@@ -1,0 +1,655 @@
+
+.all-overflow {
+    overflow: hidden !important;
+}
+
+#single_service #digital_solution .container{
+    max-width: 1380px;
+}
+
+#single_service #software_solution .container{
+    max-width: 1380px;
+}
+
+#single_service #more_service .container{
+    max-width: 1380px;
+}
+
+#single_service #mh_why_us .container{
+    max-width: 1380px;
+}
+
+#single_service #cycle .container{
+    max-width: 1380px;
+}
+
+#single_service #mh_tools_and_technogy .container{
+    max-width: 1380px;
+}
+
+#single_service #mh_advance_tech_use .container{
+    max-width: 1380px;
+}
+
+#single_service #mh_engagement_models .container{
+    max-width: 1380px;
+}
+
+#single_service #mh_projects .container{
+    max-width: 1380px;
+}
+
+#single_service #mh_footer .container{
+    max-width: 1380px;
+}
+
+#single_service #tiny_footer .container{
+    max-width: 1380px;
+}
+
+
+#single_service .padding-top {
+    padding-top: 120px;
+}
+
+
+#digital_solution {
+    margin-top: 40px;
+}
+
+.navbar {
+    height: 80px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #000;
+}
+
+.m-phon .phone {
+    color: #000 !important;
+}
+
+.m-phon .phone path {
+    fill: #000;
+}
+
+
+.digital_solution_details h2 {
+    margin-top: 80px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 65px;
+    /* or 162% */
+    color: #000000;
+    max-width: 546px;
+    width: 100%;
+}
+
+
+.digital_solution_details p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+    padding-top: 10px;
+    width: 80%;
+}
+
+
+#software_solution {
+    height: auto;
+    min-height: 548px;
+    margin-top: 170px;
+}
+
+#software_solution h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    max-width: 587px;
+    width: 100%;
+    color: #000000;
+    list-style: none;
+}
+
+#software_solution h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+}
+
+#software_solution .mh_why_us_tabs {
+    margin-top: 15px;
+}
+
+#software_solution .nav-tabs {
+    border-bottom: none;
+}
+
+#software_solution .nav {
+    display: block;
+    list-style: disc;
+}
+
+#software_solution li {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    list-style: disc;
+    color: #dddddd;
+    list-style: none;
+}
+
+#software_solution .mh_why_us_tabs li a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#software_solution .mh_why_us_tabs a.active {
+    opacity: 1;
+
+}
+
+#software_solution .mh_why_us_details p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+    padding-top: 15px;
+    width: 95%;
+}
+
+.solutions_tabs {
+    margin-top: 58px;
+}
+
+.solutions_tabs li.nav-item {
+    margin-top: 30px;
+}
+
+.solutions_image {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#mh_why_us {
+    background: #F48039;
+    height: auto;
+    padding: 100px 0px;
+    min-height: 548px;
+    padding: 135px 0px;
+}
+
+
+
+#cycle {
+    padding: 80px 100px;
+}
+
+.digital_solution_image img {
+    width: 70%;
+}
+
+#more_service {
+    margin: 180px 0px;
+}
+
+#more_service h2 {
+    color: #dddddd;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.next_t{
+    padding-top: 5px;
+}
+
+.next_t a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.next_t span {
+    margin-left: 8px;
+}
+
+
+/* Code for Tools and technology section started  */
+#mh_tools_and_technogy h2 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.icon {
+    float: left;
+    width: 20%;
+}
+
+.icon p {
+    margin-top: 10px;
+}
+
+/* Slick customization started  -------------------------------------*/
+.slick-dots {
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.slick-dots li {
+    list-style: none;
+    width: 100%;
+    padding: 15px 0px;
+    border-bottom: 1px solid #dddddd;
+    min-width: 150px;
+    text-align: center;
+}
+
+.slick-dots li:last-child {
+    border-bottom: none;
+}
+
+.slick-dots li button {
+    background-color: transparent;
+    color: #dddddd;
+    border: none;
+    top: -126px;
+
+}
+
+li.slick-active button {
+    color: #F48039;
+    font-weight: bold;
+
+}
+
+.all_tand_t_elements h4 {
+    opacity: 0;
+}
+
+span.read_status {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: right;
+    color: #AAAAAA;
+}
+
+@media screen and (min-width: 768px) {
+    #mh_tools_and_technogy .slick-dots {
+        position: absolute;
+        top: -126px;
+        right: 0;
+        background: white;
+        padding: 0px 10px;
+    }
+
+    .slick-dots li {
+        width: 100%;
+
+    }
+
+    .icon {
+        width: 18%;
+    }
+}
+
+/* Code for Tools and technology section ended  -------------------------------------*/
+
+
+/* Css for advance technology started from here */
+
+
+/* Css for advance technology ended from here ----*/
+
+/* Css for ebgagement model section started----  */
+
+#mh_engagement_models {
+    margin-top: 15px;
+}
+
+.mh_engagement_models_header h2 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 65px;
+
+}
+
+.mh_engagement_models_header p {
+    max-width: 443px;
+    font-family: Rubik;
+    font-weight: 400;
+    width: 100%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.mh_engagement_models_elements {
+    padding: 15px;
+    min-height: 254px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.mh_engagement_models_elements h5 {
+    font-weight: 700;
+    font-family: Poppins;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.mh_engagement_models_elements_all {
+    margin-top: 59px;
+}
+.mh_engagement_models_elements p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+    width: 86%;
+    padding-bottom: 20px;
+}
+
+/* Css for engagement model section ended from here------------------------------   */
+
+
+
+/* ==========================================  RASEL MEDIA PART CSS ========================================== */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+
+    #single_service #software_solution .container {
+        max-width: 960px;
+        padding: 0;
+    }
+
+    #single_service #more_service .container {
+        max-width: 960px;
+        padding: 0;
+    }
+
+    #single_service #mh_tools_and_technogy .container {
+        max-width: 960px;
+        padding: 0;
+    }
+
+    #single_service #mh_advance_tech_use .container {
+        max-width: 960px;
+        padding: 0;
+    }
+
+    #single_service #mh_engagement_models .container {
+        max-width: 960px;
+    }
+
+    #single_service #mh_projects .container {
+        max-width: 960px;
+        padding: 0;
+    }
+
+    #single_service #mh_footer .container {
+        max-width: 960px;
+        padding: 0;
+    }
+    
+    #single_service #tiny_footer .container {
+        max-width: 960px;
+        padding: 0;
+    }
+
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    .digital_solution_details h2 {
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 50px;
+        color: #000000;
+        max-width: 546px;
+        width: 100%;
+    }
+    .digital_solution_details p {
+        font-size: 15px;
+        width: 100%;
+    }
+    section#software_solution {
+        padding: 0 15px;
+    }
+    #more_service {
+        margin: 130px 0px;
+        padding: 0 15px;
+    }
+    #cycle {
+        padding: 80px 0;
+    }
+    #mh_tools_and_technogy {
+        padding: 0 15px;
+    }
+    #mh_advance_tech_use{
+        padding: 0 15px;
+    }
+    .mh_projegct_images{
+        padding: 0 15px;
+        padding-top: 10px;
+    }
+    #mh_footer {
+        padding: 0 15px;
+    }
+    .rs-footer-text p {
+        padding-bottom: 25px;
+    }
+    #tiny_footer{
+        padding: 40px 15px;
+    }
+    .rs-footer-text .banner-overlay {
+        position: absolute;
+        top: -80px !important;
+        right: 20px;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+    .solutions_tabs {
+        padding: 0 15px;
+    }
+    .tab-pane {
+        text-align: center;
+    }
+    #software_solution .mh_why_us_details p {
+        font-size: 15px;
+        width: 100%;
+        text-align: justify;
+        padding: 0 10px;
+        padding-top: 15px;
+    }
+    #more_service h2 {
+        padding: 0 15px;
+    }
+    .next_t {
+        padding-right: 15px;
+    }
+    .digital_solution_image {
+        text-align: center;
+    }
+    .digital_solution_details {
+        text-align: center;
+    }
+    .digital_solution_details p {
+        width: 100%;
+    }
+    .digital_solution_details h2 {
+        font-size: 35px;
+    }
+    .solution_we_provide_heading {
+        text-align: center;
+    }
+    .next_t {
+        padding-top: 30px;
+    }
+    .next_t a {
+        font-size: 14px;
+    }
+    #cycle {
+        padding: 80px 0;
+    }
+    #mh_tools_and_technogy{
+        padding: 0 15px;
+    }
+    #mh_tools_and_technogy h2 {
+        text-align: center !important;
+    }
+    #mh_tools_and_technogy .all_tand_t_elements{
+        text-align: center;
+    }
+    .first_row h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .first_row .padding {
+        font-size: 15px;
+        width: 100%;
+        max-width: inherit;
+        padding: 0 20px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    .digital_solution_image {
+        text-align: center;
+    }
+    .digital_solution_details h2 {
+        margin-top: 60px;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .digital_solution_details p {
+        width: 100%;
+        text-align: center;
+    }
+    #software_solution {
+        margin-top: 100px;
+    }
+    .solution_we_provide_heading {
+        text-align: center;
+    }
+    #software_solution h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .solutions_tabs {
+        padding: 0 15px;
+    }
+    .tab-pane {
+        text-align: center;
+    }
+    #software_solution .mh_why_us_details p {
+        font-size: 15px;
+        width: 100%;
+        text-align: justify;
+        padding: 0 10px;
+        padding-top: 15px;
+    }
+    #more_service h2 {
+        padding: 0 15px;
+    }
+    .next_t {
+        padding-right: 15px;
+    }
+    #cycle {
+        padding: 80px 0;
+    }
+    #more_service h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+
+}
+
+.li_dots_black{
+    font-size: 9px;
+    position: absolute;
+    margin-left: -17px;
+    margin-top: 7px;
+
+}

@@ -1,0 +1,472 @@
+.all-overflow {
+    overflow: hidden !important;
+}
+
+
+/* ============== PRELOADER CSS PART ================ */
+
+.preloader {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid;
+    color: #3498db;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader {
+    20% {
+        color: #ff6e02;
+    }
+    40% {
+        color: #f1c40f;
+    }
+    60% {
+        color: #e74c3c;
+    }
+    80% {
+        color: #000;
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* ============== PRELOADER CSS PART ENDED ================ */
+
+button:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+/* =========================== CSS NAVBER PART START =========================== */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all linear .2s;
+    z-index: 999;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+}
+
+.black {
+    display: none;
+}
+
+.bg {
+    background: #FFFFFF;
+    height: 80px;
+}
+
+.bg .black {
+    display: block;
+}
+
+.bg .white {
+    display: none;
+}
+
+.bg .navbar-nav .nav-item .nav-link {
+    color: #000 !important;
+}
+
+.bg .navbar-light .navbar-nav .active>.nav-link {
+    color: #F48039;
+}
+
+.bg .phone {
+    color: #000 !important;
+}
+
+.navbar .container {
+    max-width: 1380px;
+}
+
+.navbar .logo-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo-area .m-phon {
+    padding-left: 50px;
+}
+
+.navbar .phone {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all linear .3s;
+    text-decoration: none;
+}
+
+.navbar .phone:hover {
+    color: #F48039 !important;
+}
+
+.navbar .phone path {
+    transition: all linear .3s;
+}
+
+.bg .phone path {
+    fill: #000;
+}
+
+.navbar .phone:hover path {
+    fill: #F48039 !important;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100px;
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #F48039 !important;
+}
+
+.navbar .form-inline .btn.btn-outline-success {
+    font-family: 'Rubik', sans-serif;
+    height: 44px;
+    width: 138px;
+    border-radius: 45px;
+    border: none;
+    background: #F48039;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+
+.navbar .form-inline .btn.btn-outline-success a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #F48039;
+}
+
+.navbar .form-inline .btn.btn-outline-success:hover {
+    background: #FFFFFF;
+}
+
+.navbar .form-inline .btn.btn-outline-success:hover a {
+    color: #F48039;
+}
+
+
+/* =========================== CSS NAVBER PART END =========================== */
+
+
+/* Code for footer started */
+
+.inside_gap {
+    height: 148px;
+    width: 100%;
+    background: transparent;
+}
+
+#mh_footer {
+    background: #F7F7F7;
+    padding: 110px 0;
+}
+
+.rs-footer-text h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 83px;
+    color: #000000;
+    padding-bottom: 40px;
+    width: 60%
+}
+
+.rs-footer-text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #666666;
+    width: 80%;
+}
+
+.rs-footer-text p a{
+    color: #F48039;
+    text-decoration: none;
+}
+
+.rs-footer-text{
+    position: relative;
+}
+
+.rs-footer-text .banner-overlay {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 165px;
+    height: 50px;
+    background: #F48039;
+    border-radius: 45px;
+    transition: all linear .3s;
+}
+
+.rs-footer-text .banner-overlay span {
+    padding: 12px 20px;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: all linear .3s;
+}
+
+.rs-footer-text .banner-overlay .banner-arrow {
+    position: absolute;
+    z-index: 999;
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    transition: all linear .3s;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.rs-footer-text .banner-overlay .banner-arrow svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.social_icon {
+    text-align: right;
+}
+
+.social_icon :last-child {
+    margin-right: 0px;
+}
+
+.social_icon a {
+    margin: 0px 15px;
+    color: #666666;
+    cursor: pointer;
+}
+.social_icon a path{
+    transition: all linear .3s;
+    cursor: pointer;
+}
+.social_icon a:hover path{
+    fill: #ff6e02;
+}
+
+#tiny_footer{
+    padding: 40px 0;
+}
+.tiny_footer_logo a{
+    padding-right: 40px;
+}
+.tiny_footer_logo span{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+
+
+/* Code for footer ended */
+
+/* Mega nav customization Started from here  */
+
+.dropdown-menu .row.g-3:nth-of-type(1) {
+    margin-top: 0px;
+}
+.dropdown-menu .row.g-3 {
+    margin-top: 40px;
+}
+
+.navbar .dropdown-menu {
+   position: absolute !important;
+   min-width: 253px;
+   padding: .5rem 27px;
+   margin: 0px;
+   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+   border:none;
+   width: 100%;
+   margin-top: -18px;
+   border-radius: 0px;
+}
+.navbar .mega_menu {
+    min-width: 1182px;
+    padding-left: 100px;
+    padding-right: 27px;
+    padding-top: 40px;
+    padding-bottom: 58px;
+    margin: 0px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border: none;
+    left: -507%;
+    width: 100%;
+    height: calc(100% + 700px);
+    overflow-y: scroll;
+    margin-top: -18px;
+}
+
+.navbar .dropdown-menu a {
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+color: #000000;
+background: #FFFFFF;
+box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+}
+.navbar .dropdown-menu li{
+    padding: 19px 0px;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    
+}
+.navbar .mega_menu li{
+    padding: 11px 0px;
+    border-top:none;
+    border-bottom:none;
+    
+}
+
+.navbar .mega_menu  h6{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+color: #000000;
+padding-bottom: 10px;
+}
+.navbar .mega_menu li a{
+sfont-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+color: #666666;
+}
+.navbar .dropdown-menu li a:hover{
+    text-decoration: none;
+    color:#F48039;
+}
+.navbar .dropdown-menu li:first-child{
+    border-top: none;
+}
+.navbar .dropdown-menu li:last-child{
+    border-bottom: none;
+}
+
+
+/* Responsive Menu Dropdow And Mega Menu  -------------------*/
+/* Code is here ---------------------------------------------- */
+@media screen and (max-width:1200px){
+    .navbar .mega_menu {
+        min-width:100%;
+        left: 0px;
+        height: 397px;
+        overflow: scroll;
+        padding: .5rem 27px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .navbar .mega_menu li {
+        padding: 8px 0px;
+
+    }
+    .navbar .mega_menu h6 {
+        font-size: 15px;
+    }
+    .navbar .mega_menu li a {
+        font-size: 13px;
+
+    }
+}
+@media screen and (max-width:768px){
+    .navbar .dropdown-menu  {
+        height: 338px;
+        overflow: scroll;
+        margin-top: 0px;
+        
+    }
+    .navbar .dropdown-menu a {
+        font-size: 13px;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #dddddd;
+  }
+  
+
+
+
+/* Responsive Menu Dropdow And Mega Menu  -------------------*/
+/* Code is Ended ---------------------------------------------- */
+
+

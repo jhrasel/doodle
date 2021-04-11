@@ -1,0 +1,204 @@
+.all-overflow {
+    overflow: hidden;
+}
+
+.navbar {
+    height: 80px;
+}
+
+#get_in_touch .m-phon .phone {
+    color: #000;
+}
+
+#get_in_touch .m-phon .phone path {
+    fill: #000;
+}
+
+#get_in_touch .nav-item .nav-link {
+    color: #000;
+    line-height: 50px;
+}
+
+.container {
+    max-width: 1380px;
+}
+
+#get_touch {
+    padding-top: 150px;
+}
+
+#get_touch .get-text h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    color: #000000;
+    padding-bottom: 25px;
+    padding-top: 80px;
+    width: 75%;
+}
+#get_touch .get-text p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;  
+    color: #666666;
+    width: 80%;
+}
+
+.get-sms {
+    text-align: center;
+    padding: 83px 30px;
+}
+
+.get-sms.bg{
+    background: #F7F7F7;
+    height: inherit;
+}
+
+.get-sms .svg{
+    padding-bottom: 40px;
+}
+
+.get-sms h4{
+    padding-bottom: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+}
+
+.get-sms p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.get-sms.bg p{
+    padding: 0 50px;
+}
+
+
+
+/* ====================================================== RASEL MEDIA PART START ====================================================== */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #get_in_touch .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #get_in_touch .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+    #get_touch .get-text h3 {
+        font-size: 35px;
+        line-height: 60px;
+        width: 100%;
+    }
+
+    #get_touch .get-text p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .get-sms h4 {
+        font-size: 25px;
+    }
+
+    #get_touch .get-text p {
+        padding-bottom: 20px;
+    }
+    .get-sms.bg p {
+        padding: 0 ;
+    }
+    .get-sms p{
+        font-size: 14px;
+    }
+    .get-sms {
+        text-align: center;
+        padding: 83px 10px;
+    }
+    
+}
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #get_in_touch .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #get_in_touch .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #get_in_touch .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #get_in_touch .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+    #get_touch .get-text p {
+        padding-bottom: 20px;
+    }
+    .get-sms.bg p {
+        padding: 0 ;
+    }
+
+}
+
+
+/*  Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+
+    #get_in_touch .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #get_in_touch .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+    #get_touch .get-text h3 {
+        font-size: 25px;
+        line-height: 50px;
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    #get_touch .get-text p {
+        font-size: 14px;
+        color: #666666;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .get-sms h4 {
+        font-size: 24px;
+    }
+    .get-sms p {
+        font-size: 14px;
+    }
+    .get-sms.bg p {
+        padding: 0 ;
+    }
+    .inside_gap {
+        height: 10px;
+    }
+}

@@ -1,0 +1,93 @@
+.all-overflow {
+    overflow: hidden;
+}
+
+.navbar {
+    height: 80px;
+}
+
+#get_contact .m-phon .phone {
+    color: #000;
+}
+
+#get_contact .m-phon .phone path {
+    fill: #000;
+}
+
+#get_contact .nav-item .nav-link {
+    color: #000;
+    line-height: 50px;
+}
+
+.container {
+    max-width: 1380px;
+}
+
+#get_contact #recent-project-contact {
+    padding-top: 150px;
+}
+
+
+
+
+
+/* ====================================================== RASEL MEDIA PART START ====================================================== */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #get_contact .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #get_contact .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+
+    
+}
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #get_contact .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #get_contact .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #get_contact .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #get_contact .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+}
+
+
+/*  Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+
+    #get_contact .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #get_contact .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+}

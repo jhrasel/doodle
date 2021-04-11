@@ -1,0 +1,360 @@
+.all-overflow {
+    overflow: hidden !important;
+}
+
+
+/* ====================================================== CSS TECHNOLOGY PART START ====================================================== */
+
+#mh .container {
+    max-width: 1140px !important;
+}
+.navbar {
+    height: 80px;
+}
+
+#technology .m-phon .phone {
+    color: #000;
+}
+
+#technology .m-phon .phone path {
+    fill: #000;
+}
+
+#technology .nav-item .nav-link {
+    color: #000;
+}
+  
+
+.digital-part.technology h2 {
+    font-weight: 400;
+    font-size: 60px;
+    padding: 0 0;
+    line-height: 83px;
+}
+
+.digital-part.technology span {
+    font-weight: 700;
+}
+
+.digital-part.technology p {
+    padding: 0 132px;
+    padding-top: 30px;
+}
+
+.digital-part.technology .digital-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+#digital-solution {
+    padding-top: 299px;
+}
+
+
+/* =========================== CSS BACKEND PART END =========================== */
+
+.development_texts {
+    padding-bottom: 60px;
+}
+
+.development_texts h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 65px;
+    margin-top: 87px;
+    padding-bottom: 10px;
+}
+
+.development a {
+    color: white;
+    text-decoration: none;
+}
+
+.development_texts p {
+    width: 40%;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+    color: #666666;
+}
+
+.development_elements {
+    background-color: #f7f7f7;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    transition: .5s;
+    padding-bottom: 40px;
+}
+
+.development_elements:hover {
+    background: #F48039 !important;
+    color: white;
+}
+
+.development_elements:hover .development_elements h5 {
+    color: white;
+    text-decoration: none;
+}
+
+.development_elements svg path {
+    transition: .5s;
+}
+
+.development_elements:hover svg path {
+    fill: #f7f7f7;
+}
+
+.development_elements h5 {
+    font-size: 18px;
+    margin: 30px 5px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.development_icon {
+    margin: 30px 15px;
+}
+
+
+/* Code for advance development */
+
+.advance_development {
+    background: #F7F7F7;
+    padding-top: 35px;
+}
+
+.advance_development .development_elements {
+    background: #FFF;
+}
+
+.advance_development .development_texts p {
+    max-width: 535px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.go {
+    margin-right: -10px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.development_elements:hover .go a {
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.development_elements:hover .go {
+    opacity: 1;
+    color: white;
+}
+
+
+/* =========================== CSS BACKEND PART END =========================== */
+
+
+/* =========================== GLOBAL FUTURE PART START =========================== */
+
+#global-future {
+    background: #fff;
+    padding-top: 200px;
+    padding-bottom: 180px;
+    position: relative;
+}
+
+.global-future-text .global-future-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.global-future-text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    color: #000000;
+    padding: 0px 165px;
+}
+
+.global-future-text p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+    padding: 0px 140px;
+    padding-top: 20px;
+}
+
+
+/* =========================== GLOBAL FUTURE PART END =========================== */
+
+
+/* ====================================================== CSS TECHNOLOGY PART END ====================================================== */
+
+
+/* =========================== MEDIA PART START =========================== */
+
+@media (min-width: 1200px) {
+    #mh .container {
+        max-width: 1380px !important;
+    }
+}
+
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-toggler i {
+        color: #000 !important;
+    }
+    #technology .nav-item .nav-link {
+        color: #FFF !important;
+    }
+    #digital-solution {
+        padding-top: 200px !important;
+    }
+    .digital-part.technology p {
+        padding: 0 10px;
+        padding-top: 20px;
+    }
+}
+
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-toggler i {
+        color: #000 !important;
+    }
+    #technology .nav-item .nav-link {
+        color: #FFF !important;
+    }
+    .digital-part h2 {
+        padding: 0 150px !important;
+    }
+    .digital-part p {
+        font-size: 16px !important;
+        padding-top: 10px !important;
+    }
+    .development_texts {
+        text-align: center;
+    }
+    .development_texts p {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-toggler i {
+        color: #000 !important;
+    }
+    #technology .nav-item .nav-link {
+        color: #FFF !important;
+    }
+    .digital-part h2 {
+        font-size: 35px !important;
+        line-height: 55px !important;
+    }
+    .digital-part.technology p {
+        padding: 0 35px;
+        padding-top: 15px;
+    }
+    .global-future-text h3 {
+        padding: 0 0px;
+    }
+    .global-future-text p {
+        padding: 0 5px;
+        padding-top: 15px;
+    }
+    .development_texts {
+        text-align: center;
+    }
+    .development_texts p {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .advance_development .development_texts p {
+        max-width: inherit;
+        width: 100%;
+    }
+    #digital-solution {
+        padding-top: 230px !important;
+        padding-bottom: 90px;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .navbar-toggler i {
+        color: #000 !important;
+    }
+    .navbar .logo-area .m-phon {
+        padding-left: 0px;
+    }
+    .navbar .phone {
+        font-size: 11px;
+    }
+    #technology .nav-item .nav-link {
+        color: #FFF !important;
+    }
+    #digital-solution {
+        padding-top: 200px !important;
+    }
+    .digital-part h2 {
+        font-size: 33px !important;
+        line-height: 50px !important;
+    }
+    .digital-part.technology p {
+        padding: 0 0px;
+        text-align: justify;
+        padding-top: 20px;
+    }
+    .development_texts h5 {
+        font-size: 35px !important;
+    }
+    .development_texts p {
+        font-size: 13px !important;
+    }
+    .global-future-text h3 {
+        font-size: 25px;
+        line-height: 45px;
+        padding: 0px;
+    }
+    .global-future-text p {
+        font-size: 13px;
+        padding: 0px;
+        padding-top: 15px;
+    }
+    .development_texts {
+        text-align: center;
+    }
+    .development_texts p {
+        width: 100%;
+    }
+}
+
+
+/* =========================== MEDIA PART END =========================== */

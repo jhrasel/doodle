@@ -1,0 +1,175 @@
+.all-overflow {
+    overflow: hidden !important;
+}
+
+#blog_archive .navbar {
+    height: 80px;
+}
+
+#blog_archive .navbar-nav .nav-item .nav-link {
+    color: #000;
+}
+
+.m-phon .phone {
+    color: #000 !important;
+}
+
+.m-phon .phone path {
+    fill: #000;
+}
+
+#blog_archive .container {
+    max-width: 1380px;
+}
+
+
+/* =========================== BLOG_ARCHIVE CSS PART START =========================== */
+
+#blog-part {
+    padding-top: 87px;
+}
+
+.blog-text {
+    padding-bottom: 15px;
+}
+
+#blog-part .controls {
+    padding-top: 25px;
+}
+
+.blog-text h3 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#blog-part .controls button {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    background: none;
+    padding-right: 50px;
+    color: #b3b3b3;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#blog-part .controls .mixitup-control-active {
+    color: #000000;
+}
+
+#blog-part .controls path {
+    fill: #b3b3b3;
+}
+
+#blog-part .controls .mixitup-control-active path {
+    fill: #000;
+}
+
+#blog-part .controls button svg {
+    margin-bottom: 5px;
+    margin-right: 8px;
+}
+
+.blog-tab {
+    padding-top: 60px;
+}
+
+.blog-tab h4 a{
+    color: #F48039;
+    text-decoration: none;
+}
+
+.blog-tab h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 23px;
+    
+}
+
+.blog-tab h4 span {
+    color: #AAAAAA;
+    font-size: 14px;
+    font-weight: 400;
+    float: right;
+}
+
+.blog-tab p a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.blog-tab p  {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    padding-right: 20px;
+    padding-top: 13px;
+}
+
+
+/* =========================== BLOG_ARCHIVE CSS PART END =========================== */
+
+
+/* ====================================================== MEDIA PART START ====================================================== */
+
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #blog_archive .navbar-toggler i {
+        color: #000 !important;
+    }
+    #blog_archive .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    #blog-part .controls button {
+        font-size: 17px;
+        padding-right: 30px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #blog_archive .navbar-toggler i {
+        color: #000 !important;
+    }
+    #blog_archive .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    #blog-part .controls button {
+        font-size: 16px;
+        padding-right: 22px;
+        padding-bottom: 10px;
+    }
+    .blog-tab p {
+        font-size: 15px;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    #blog_archive .navbar-toggler i {
+        color: #000 !important;
+    }
+    #blog_archive .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    .blog-text h3 {
+        font-size: 29px;
+    }
+    #blog-part .controls button {
+        padding: 5px 2px;
+        display: block;
+    }
+    .blog-tab p {
+        font-size: 15px;
+    }
+}

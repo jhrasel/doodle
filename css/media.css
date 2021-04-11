@@ -1,0 +1,902 @@
+
+
+/* Large devices (desktops, 1200px and up) */
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+    .all-overflow .container {
+        max-width: 1140px !important;
+        padding: 0;
+    }
+    #mh .container {
+        max-width: 1140px !important;
+        padding: 0;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+
+    #mh_why_us .tab-content h1 {
+        padding-bottom: 15px;
+    }
+
+    .g-3 .col-12{
+        padding: 5px;
+    }
+
+    .navbar .dropdown-menu li {
+        padding: 15px 0px;
+    }
+
+    .navbar .dropdown-menu a {
+        font-size: 14px;
+    }
+
+    .mh_why_us_tabs {
+        margin-top: 35px;
+    }
+    .navbar .logo-area .m-phon {
+        padding-left: 14px;
+    }
+    .navbar .phone {
+        font-size: 12px;
+    }
+    .approach-text h3 {
+        padding-bottom: 145px;
+    }
+    .digital-part.technology h2 {
+        font-size: 50px;
+    }
+    .navbar-nav .nav-item {
+        padding-right: 10px;
+    }
+    #banner {
+        padding: 200px 0;
+    }
+    #banner .col-lg-12{
+        padding: 0;
+    }
+    .banner-text h1 {
+        font-size: 45px;
+        line-height: 75px;
+        padding-bottom: 25px;
+        width: 55%;
+    }
+    
+    .banner-text .web_mob_cloud {
+        padding-bottom: 45px;
+    }
+    .digital-part .digital-overlay {
+        top: -45px;
+    }
+    .amazing-staff-text h2 {
+        font-size: 33px;
+    }
+    .digital-part h2 {
+        font-size: 33px;
+    }
+    .digital-part p {
+        font-size: 15px;
+        padding: 0;
+    }
+    .approach-text h3 {
+        font-size: 55px;
+    }
+    .approach-text h4 {
+        font-size: 35px;
+        line-height: 60px;
+    }
+    .mh_tech_box p {
+        font-size: 15px;
+        width: 100%;
+    }
+    .mh_engagement_models_elements p {
+        font-size: 14px;
+    }
+    #mh_why_us h1 {
+        font-size: 40px;
+    }
+    #mh_why_us .tab-content h1 {
+        font-size: 35px;
+    }
+    .mh_why_us_details p {
+        width: 95%;
+    }
+    .rs-footer-text h3 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .all-overflow .container {
+        max-width: 960px !important;
+        padding: 0;
+    }
+    #mh .container {
+        max-width: 960px !important;
+        padding: 0;
+    }
+    .navbar {
+        z-index: 999;
+    }
+    button:focus {
+        outline: none;
+    }
+    .navbar-toggler i {
+        color: #fff;
+    }
+    .navbar-nav {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .amazing-staff-slider-item p {
+        font-size: 14px;
+    }
+    .approach-text h3 {
+        padding-bottom: 190px;
+    }
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.85);
+        padding-bottom: 30px;
+    }
+    .navbar-collapse .form-inline {
+        justify-content: center;
+    }
+    .navbar-nav .nav-item .nav-link {
+        line-height: 40px;
+    }
+    .bg .navbar-nav .nav-item .nav-link {
+        color: #FFF !important;
+    }
+    #banner {
+        padding: 220px 0;
+        height: 100vh;
+        position: relative;
+    }
+    #banner .col-lg-12{
+        padding: 0;
+    }
+    .banner-text h1 {
+        width: 67%;
+        line-height: 80px;
+        padding-bottom: 20px;
+        font-size: 50px;
+    }
+    .banner-text .web_mob_cloud {
+        padding-bottom: 40px;
+    }
+    .digital-part .digital-overlay {
+        top: -45px;
+    }
+    .digital-part h2 {
+        font-size: 35px;
+        padding: 0;
+    }
+    #digital-solution {
+        padding-top: 130px;
+    }
+    .digital-part p {
+        padding-top: 30px;
+    }
+    .amazing-staff-text h2 {
+        font-size: 35px;
+    }
+    .staff-slider-item {
+        padding: 40px 25px;
+    }
+    .approach-text h4 {
+        font-size: 34px;
+    }
+    .mh_engagement_models_elements p {
+        font-size: 14px;
+        width: 91%;
+        text-align: justify;
+    }
+    .rs-footer-text h3 {
+        width: 85%;
+    }
+    .rs-footer-text p {
+        font-size: 17px;
+        width: 100%;
+    }
+    .rs-footer-text .banner-overlay {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+    }
+    .mh_tech_box h5 {
+        font-size: 22px;
+    }
+    .first_row p {
+        max-width: inherit;
+        font-size: 15px;
+    }
+    .mh_tech_box p {
+        font-size: 13px;
+        width: 100%;
+    }
+    .mh_tech_box.height {
+        height: 330px;
+    }
+    .mh_blog_images_cat p a {
+        font-size: 15px;
+    }
+    .mh_read_blog_heading h1 {
+        padding-bottom: 30px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+        z-index: 999;
+    }
+    button:focus {
+        outline: none;
+    }
+    .navbar-toggler i {
+        color: #fff;
+    }
+    .navbar-nav {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.85);
+        padding-bottom: 30px;
+    }
+    .navbar-collapse .form-inline {
+        justify-content: center;
+    }
+    .navbar-nav .nav-item .nav-link {
+        line-height: 40px;
+    }
+    .bg .navbar-nav .nav-item .nav-link {
+        color: #FFF !important;
+    }
+    #banner {
+        padding: 110px 0;
+    }
+    .banner-text h1 {
+        width: 90%;
+    }
+    .digital-part p {
+        font-size: 15px;
+        padding: 0 70px;
+    }
+    .digital-part .digital-overlay {
+        /* top: -30px; */
+    }
+    #digital-solution {
+        padding-top: 160px;
+        padding-bottom: 90px;
+    }
+    #amazing-staff {
+        padding-bottom: 70px;
+        padding-top: 40px;
+    }
+    .amazing-staff-slider-item h3 {
+        font-size: 19px;
+    }
+    .amazing-staff-text {
+        text-align: center;
+    }
+    .amazing-staff-text p {
+        padding-bottom: 53px;
+    }
+    .amazing-staff-slider {
+        margin: 0 -10px;
+    }
+    .amazing-staff-slider .amazing-staff-slider-item {
+        padding: 0 10px;
+    }
+    .amazing-staff-slider-item p {
+        font-size: 14px;
+    }
+    .staff-slider-item {
+        padding: 50px 15px;
+    }
+    .approach-text h4 {
+        max-width: inherit;
+    }
+    .approach-text p {
+        max-width: inherit;
+        padding: 0 80px;
+    }
+    .first_row p {
+        text-align: justify;
+        padding-bottom: 30px;
+    }
+    .mh_tech_box {
+        min-height: inherit;
+    }
+    .mh_projegct_images_frame:nth-of-type(1) p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .mh_projegct_images_frame p {
+        font-size: 13px;
+        line-height: 22px;
+        padding: 0 20px;
+        bottom: 30px;
+        max-width: 100%;
+    }
+    .mh_blog_images_cat p {
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .staff-slider-item:hover {
+        padding: 50px 15px;
+    }
+    #approach {
+        background: #F48039;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .approach-text {
+        text-align: center;
+    }
+    .approach-text h3 {
+        padding-bottom: 35px;
+    }
+    .approach-text h4 {
+        font-size: 30px;
+        padding-right: 0;
+        padding-top: 50px;
+        line-height: 50px;
+    }
+    .mh_engagement_models_header {
+        text-align: center;
+    }
+    .mh_engagement_models_header p {
+        max-width: inherit;
+        padding: 0 150px;
+    }
+    .mh_engagement_models_elements {
+        text-align: center;
+    }
+    .mh_engagement_models_elements p {
+        width: 100%;
+        text-align: justify;
+        padding: 0 10px;
+        padding-bottom: 20px;
+    }
+    #mh_why_us .tab-content h1 {
+        font-size: 35px;
+        width: 100%;
+    }
+    .mh_why_us_details p {
+        width: 100%;
+        text-align: justify;
+        padding-right: 15px;
+    }
+    .mh_about_project_ {
+        text-align: center;
+    }
+    .mh_about_project_ p {
+        width: 100%;
+        padding: 0 150px;
+        padding-bottom: 25px;
+    }
+    .rs-footer-text h3 {
+        font-size: 55px;
+        width: 100%;
+    }
+    .rs-footer-text p {
+        width: 70%;
+    }
+    .rs-footer-text .banner-overlay {
+        position: absolute;
+        top: -50px;
+        right: 20px;
+    }
+    .mh_blog_images img {
+        padding: 0;
+    }
+    .mh_blog_images_cat {
+        margin: 8px 0px;
+        padding: 0px;
+    }
+    .mh_blog_images_cat p a {
+        font-size: 15px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .navbar {
+        z-index: 999;
+    }
+    button:focus {
+        outline: none;
+    }
+    .navbar-toggler i {
+        color: #fff;
+    }
+    .navbar-nav {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.85);
+        padding-bottom: 30px;
+    }
+    .navbar-collapse .form-inline {
+        justify-content: center;
+    }
+    .navbar-nav .nav-item .nav-link {
+        line-height: 40px;
+    }
+    .bg .navbar-nav .nav-item .nav-link {
+        color: #FFF !important;
+    }
+    #banner {
+        padding: 110px 0;
+        height: unset;
+        padding-bottom: 20px;
+    }
+    .banner-text h1 {
+        font-size: 50px;
+        width: 90%;
+        line-height: 70px;
+    }
+    .banner-video-player {
+        right: -20px;
+    }
+    .banner-video-player svg {
+        width: 120px;
+        height: 120px;
+    }
+    .banner-email {
+        position: relative;
+        /* width: auto; */
+    }
+    .digital-part h2 {
+        padding: 0;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .digital-part p {
+        font-size: 15px;
+    }
+    .digital-part .digital-overlay {
+        /* top: -30px; */
+    }
+    #digital-solution {
+        padding-top: 120px;
+        padding-bottom: 90px;
+    }
+    #amazing-staff {
+        padding-bottom: 70px;
+        padding-top: 40px;
+    }
+    .amazing-staff-text {
+        text-align: center;
+    }
+    .amazing-staff-text p {
+        padding: 0 55px;
+    }
+    #approach {
+        background: #F48039;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .amazing-staff-slider {
+        margin: 0;
+    }
+    .amazing-staff-slider .amazing-staff-slider-item {
+        padding: 0;
+    }
+    .staff-slider-item {
+        padding: 40px 15px
+    }
+    .amazing-staff-slider-item h3 {
+        font-size: 17px;
+    }
+    .amazing-staff-text p {
+        padding: 0 120px;
+        padding-bottom: 37px;
+    }
+    .approach-text h4 {
+        max-width: inherit;
+    }
+    .first_row p {
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+    .mh_engagement_models_header {
+        text-align: center;
+    }
+    .mh_engagement_models_header p {
+        max-width: inherit;
+        padding: 0 30px;
+    }
+    .amazing-staff-slider-item p {
+        font-size: 13px;
+        text-align: justify;
+    }
+    .approach-text {
+        text-align: center;
+    }
+    .approach-text h3 {
+        padding-bottom: 35px;
+    }
+    .approach-text h4 {
+        font-size: 30px;
+        padding-right: 0;
+        padding-top: 50px;
+        line-height: 50px;
+    }
+    /* MEHEDI VAI PART */
+    .digital-part h2 {
+        font-size: 30px;
+    }
+    .digital-part p {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .amazing-staff-text h2 {
+        font-size: 28px;
+    }
+    .approach-text h3 {
+        font-size: 40px;
+    }
+    .approach-text h4 {
+        font-size: 35px;
+        line-height: 55px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .approach-text p {
+        padding: 0 50px;
+        max-width:inherit;
+    }
+    #mh_tools_and_technogy h2 {
+        font-size: 28px;
+    }
+    .first_row h2 {
+        font-size: 28px;
+    }
+    .mh_tech_box h5 {
+        font-size: 20px;
+    }
+    .mh_engagement_models_header h2 {
+        font-size: 27px;
+    }
+    .mh_engagement_models_header p {
+        font-size: 14px;
+    }
+    .mh_engagement_models_elements {
+        text-align: center;
+    }
+    .mh_engagement_models_elements p {
+        width: 100%;
+        text-align: justify;
+    }
+    #mh_why_us h1 {
+        font-size: 45px;
+    }
+    #mh_why_us .tab-content h1 {
+        padding-top: 15px;
+        font-size: 31px;
+        width: 100%;
+    }
+    .mh_why_us_details p {
+        width: 100%;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    .mh_about_project_ {
+        text-align: center;
+    }
+    .mh_about_project_ p {
+        width: 100%;
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .mh_about_project_numbers {
+        padding-top: 60px;
+    }
+    .mh_projegct_images_frame:nth-of-type(1) p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .mh_projegct_images_frame p {
+        bottom: 28px;
+        padding: 0 30px;
+        font-size: 14px;
+        padding-left: 8px;
+    }
+    .mh_about_project_ h1 {
+        font-size: 28px;
+    }
+    .mh_blog_images_cat p {
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+    .mh_about_project_numbers h4 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .mh_read_blog_heading h1 {
+        font-size: 28px;
+    }
+    .inside_gap {
+        height: 50px;
+    }
+    .get_start {
+        position: inherit;
+    }
+    .tiny_footer_logo a {
+        padding-right: 20px;
+    }
+    .rs-footer-text h3 {
+        font-size: 45px;
+        line-height: 65px;
+        width: 100%;
+    }
+    .rs-footer-text {
+        text-align: center;
+    }
+    .rs-footer-text .banner-overlay{
+        left: 50%;
+        top: 40px;
+        transform: translateX(-50%);
+        text-align: left;
+    }
+    .rs-footer-text p {
+        width: 100%;
+    }
+}
+
+
+/*  Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .navbar {
+        z-index: 999;
+    }
+    button:focus {
+        outline: none;
+    }
+    .navbar-toggler i {
+        color: #fff;
+    }
+    .navbar-nav {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.85);
+        padding-bottom: 30px;
+    }
+    .navbar-collapse .form-inline {
+        justify-content: center;
+    }
+    .bg .navbar-nav .nav-item .nav-link {
+        color: #FFF !important;
+    }
+    .navbar-nav .nav-item .nav-link {
+        line-height: 40px;
+    }
+    #banner {
+        padding: 110px 0;
+        height: unset;
+        padding-bottom: 20px;
+    }
+    .banner-text h1 {
+        font-size: 30px;
+        width: 100%;
+        line-height: 50px;
+    }
+    .banner-video-player {
+        right: -20px;
+    }
+    .banner-video-player svg {
+        width: 120px;
+        height: 120px;
+    }
+    .banner-email {
+        position: relative;
+        width: auto;
+    }
+    .digital-part h2 {
+        padding: 0;
+        font-size: 23px;
+        line-height: 40px;
+    }
+    .digital-part p {
+        font-size: 15px;
+        text-align: justify;
+        padding-top: 0px;
+    }
+    .staff-slider-item {
+        border: 2px solid #EEEEEE !important;
+        box-sizing: border-box;
+        border-radius: 25px;
+    }
+    .mh_engagement_models_header h2 {
+        line-height: 50px;
+    }
+    #digital-solution {
+        padding-top: 130px;
+        padding-bottom: 90px;
+    }
+    #amazing-staff {
+        padding-bottom: 70px;
+        padding-top: 40px;
+    }
+    .prev {
+        display: none !important;
+    }
+    .next {
+        display: none !important;
+    }
+    .amazing-staff-text {
+        text-align: center;
+    }
+    .amazing-staff-text p {
+        padding-right: 0;
+    }
+    #approach {
+        background: #F48039;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .approach-text {
+        text-align: center;
+    }
+    .approach-text h3 {
+        padding-bottom: 35px;
+        font-size: 50px;
+    }
+    .approach-text h4 {
+        font-size: 28px;
+        padding-right: 0;
+        padding-top: 50px;
+        line-height: 50px;
+    }
+    #mh_tools_and_technogy h2 {
+        font-size: 28px;
+    }
+    .first_row h2 {
+        font-size: 28px;
+    }
+    .mh_tech_box h5 {
+        font-size: 26px;
+    }
+    .first_row p {
+        font-size: 14px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .mh_tech_box p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .mh_engagement_models_header h2 {
+        font-size: 28px;
+    }
+    .mh_tech_box.height {
+        height: inherit;
+    }
+    .mh_engagement_models_elements {
+        text-align: center;
+    }
+    .mh_engagement_models_elements p {
+        width: 100%;
+        font-size: 15px;
+        padding: 0 10px;
+        padding-bottom: 20px;
+        text-align: justify;
+    }
+    #mh_why_us h1 {
+        font-size: 50px;
+    }
+    #mh_why_us li.nav-item a {
+        font-size: 16px;
+    }
+    #mh_why_us .tab-content h1 {
+        font-size: 28px;
+        width: 100%;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        line-height: 50px;
+    }
+    .mh_why_us_details p {
+        font-size: 15px;
+        width: 100%;
+    }
+    .mh_about_project_ {
+        text-align: center;
+    }
+    .mh_about_project_ h1 {
+        font-size: 28px;
+    }
+    .mh_about_project_ p {
+        font-size: 15px;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .mh_about_project_numbers {
+        padding-top: 55px;
+    }
+    .mh_about_project_numbers h4 {
+        text-align: center;
+    }
+    .mh_projegct_images_frame:nth-of-type(1) p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 15px;
+    }
+    .mh_projegct_images_frame p {
+        bottom: 28px;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 15px;
+    }
+    .mh_read_blog_heading h1 {
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+    .mh_read_blog_heading p {
+        font-size: 13px;
+    }
+    .mh_blog_images_cat p {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .rs-footer-text{
+        text-align: center;
+    }
+    .rs-footer-text h3 {
+        font-size: 24px;
+        line-height: 50px;
+        width: 100%;
+    }
+    .rs-footer-text p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .tiny_footer_logo a {
+        padding-right: 10px;
+    }
+    .rs-footer-text .banner-overlay{
+        left: 50%;
+        top: 40px;
+        transform: translateX(-50%);
+        text-align: left;
+    }
+    .mh_blog_images img {
+        padding: 0;
+    }
+    .mh_blog_images_cat {
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .mh_blog_images_cat p a {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .tiny_footer_logo {
+        text-align: center;
+    }
+    .social_icon {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}

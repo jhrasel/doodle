@@ -1,0 +1,543 @@
+.all-overflow {
+    overflow: hidden;
+}
+
+.navbar {
+    height: 80px;
+}
+
+#approch .m-phon .phone {
+    color: #000;
+}
+
+#approch .m-phon .phone path {
+    fill: #000;
+}
+
+#approch .nav-item .nav-link {
+    color: #000;
+    line-height: 50px;
+}
+
+.container {
+    max-width: 1380px;
+}
+
+/*  =========================== APPROCH Discovary PART START =========================== */
+#approch-part {
+    padding-top: 181px;
+}
+
+#approch-part .container {
+    max-width: 1380px;
+}
+
+.approch-hedding h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.approch-hedding p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.approch-hedding h4 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.approch-text {
+    background: #F7F7F7;
+    padding: 53px 37px 55px;
+}
+
+.approch-text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: right;
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+.approch-text h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 25px;
+    margin-left: -10px;
+}
+
+.approch-ul ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.approch-ul ul li {
+    padding-bottom: 25px;
+    width: 45%;
+}
+
+.approch-ul ul li a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    text-decoration: none;
+    line-height: 30px;
+    position: relative;
+}
+
+.approch-ul ul li a::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px;
+    width: 21px;
+    height: 1px;
+    background: #F48039;
+}
+
+.approch-ul ul li .last-child {
+    position: relative;
+}
+
+.approch-ul ul li .last-child::after {
+    top: 10px;
+}
+
+.approch-text {
+    position: relative;
+}
+
+.approch-text .overlay {
+    position: absolute;
+    bottom: -205px;
+    right: 37px;
+}
+
+#approch-part .outcome {
+    padding: 53px 37px 55px;
+    padding-top: 90px;
+    position: relative;
+}
+
+#approch-part .outcome h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 25px;
+    margin-left: -10px;
+}
+
+#approch-part .outcome .outcome-overlay {
+    position: absolute;
+    left: 0;
+    top: 40px;
+
+}
+
+.overlay-planing {
+    position: absolute;
+    bottom: -50px;
+    right: 37px;
+
+}
+
+#approch-part .outcome .approch-ul ul li {
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+
+/*  =========================== APPROCH Discovary PART END =========================== */
+
+
+
+/* =========================== APPROCH Collaboration Tools PART START =========================== */
+#r_collaboration{
+    padding-top: 55px;
+    padding-bottom: 100px;
+}
+#r_collaboration .approch-hedding p{
+    padding-bottom: 60px;
+}
+.collaboration-logo{
+    background: #F7F7F7;
+    padding: 77px 70px;
+    text-align: center;
+    height: 268px;
+    margin-bottom: 30px;
+}
+.collaboration-logo p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    padding-top: 25px;
+}
+
+/* =========================== APPROCH Collaboration Tools PART END =========================== */
+
+/* =========================== APPROCH PROJECT COMMUNICATION PART START =========================== */
+
+#r_project_communication{
+    padding-top: 30px;
+    padding-bottom: 175px;
+}
+
+.r_communication-text{
+    background: #F7F7F7;
+    padding: 48px 20px 30px 20px;
+}
+
+.r_communication-text h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 37px;
+    color: #000000;
+}
+
+#r_project_communication .approch-hedding h3{
+    padding-bottom: 60px;
+}
+
+.r_communication-text h3.pabbing-btm{
+    padding-bottom: 30px;
+}
+
+.r_communication-text h4.pabbing-btm{
+    padding-bottom: 40px;
+}
+
+.r_communication-text h4{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    padding-bottom: 14px;
+}
+
+.r_communication-text p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #666666;
+    padding: 20px 1px;
+    border-top: 1px solid #DDDDDD;
+}
+
+
+/* =========================== APPROCH PROJECT COMMUNICATION PART END =========================== */
+
+
+
+
+
+/* ====================================================== RASEL MEDIA PART START ====================================================== */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #approch .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #approch .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    .approch-ul ul li {
+        width: 100%;
+    }
+    .approch-text .overlay {
+        bottom: -125px;
+        text-align: right;
+        right: -150px;
+    }
+    .approch-text .overlay img{
+        width: 50% !important;
+    }
+    .overlay-planing {
+        bottom: -125px;
+        text-align: right;
+        right: -150px;
+    }
+    .overlay-planing img{
+        width: 50% !important;
+    }
+    #approch-part .outcome {
+        padding: 53px 37px 55px;
+        padding-top: 150px;
+        position: relative;
+    }
+    #approch-part .outcome .outcome-overlay {
+        top: 88px;
+    }
+    .approch-ul ul li a {
+        font-size: 14px;
+    }
+    .approch-hedding h3 {
+        font-size: 30px;
+        line-height: 55px;
+    }
+    .approch-hedding h4 {
+        font-size: 24px;
+    }
+}
+
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #approch .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #approch .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    .approch-ul ul li {
+        width: 100%;
+    }
+    .approch-text .overlay {
+        bottom: -235px;
+        text-align: right;
+    }
+    .approch-text .overlay img{
+        width: 75% !important;
+    }
+    .overlay-planing {
+        bottom: -235px;
+        text-align: right;
+    }
+    .overlay-planing img{
+        width: 75% !important;
+    }
+    .r_communication-text {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #approch .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #approch .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+    .approch-hedding h3 {
+        font-size: 35px;
+    }
+    .approch-ul ul li {
+        width: 100%;
+    }
+    .approch-text .overlay {
+        bottom: -140px;
+        text-align: right;
+        right: -150px;
+    }
+    .approch-text .overlay img{
+        width: 55% !important;
+    }
+    .approch-ul ul li a {
+        font-size: 15px;
+    }
+    .overlay-planing {
+        bottom: -140px;
+        text-align: right;
+        right: -150px;
+    }
+    .overlay-planing img{
+        width: 55% !important;
+    }
+    .r_communication-text {
+        margin-bottom: 30px;
+    }
+    .r_communication-text p {
+        font-size: 14px;
+    }
+    #r_project_communication {
+        padding-top: 0;
+        padding-bottom: 100px;
+    }
+    #approch-part .outcome h4 {
+        padding-bottom: 0px;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #approch .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #approch .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+    .approch-hedding h3 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 50px;
+        color: #000000;
+        padding-bottom: 10px;
+    }
+    .approch-hedding h4 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .approch-text h3 {
+        text-align: left;
+        margin-left: -10px;
+        padding-bottom: 20px;
+    }
+    .approch-text {
+        padding: 53px 20px 55px;
+    }
+    .approch-ul ul li {
+        width: 100%;
+    }
+    .approch-ul ul li a {
+        font-size: 12px;
+    }
+    .approch-ul ul li .last-child::after {
+        top: 7px;
+    }
+    .approch-text .overlay img{
+        width: 50% !important;
+    }
+    .approch-text .overlay {
+        position: absolute;
+        bottom: -80px;
+        right: 37px;
+        text-align: right;
+    }
+    .overlay-planing {
+        position: absolute;
+        bottom: -80px;
+        right: 37px;
+        text-align: right;
+    }
+    .overlay-planing img{
+        width: 50% !important;
+    }
+    .approch-hedding p {
+        font-size: 14px;
+    }
+    .r_communication-text {
+        margin-bottom: 30px;
+    }
+
+}
+.approach_items{
+
+}
+@media (max-width: 1373px){
+    .approach_slider ul.slick-dots{
+        display: none !important;
+    }
+}
+
+.approach_slider ul.slick-dots{
+    position: fixed;
+    top: 20% ;
+    opacity: 0;
+    right: 21%;
+}
+.approach_slider ul.slick-dots li{
+    list-style: disc;
+    border-bottom: none;
+    text-align: left;
+    color: #ddd;
+}
+.approach_slider ul.slick-dots li.slick-active{
+    color: #000000;
+}
+
+.approach_slider ul.slick-dots li.slick-active button{
+    color: #000000;
+}
+
+
+.arr_up{
+    position: fixed;
+    right: 10%;
+    top: 30% ;
+    z-index: 999;
+    background: white;
+    padding: 5px;
+    border-radius: 50%;
+    color: black;
+    border: none;
+    text-decoration: none;
+    opacity: 0;
+    border: 1px solid black;
+}
+.arr_down{
+    position: fixed;
+    right: 10%;
+    top: 35%;
+    z-index: 999;
+    background: white;
+    padding: 5px;   
+    border-radius: 50%;
+    color: black;
+    border: none;
+    text-decoration: none;
+    opacity: 0;
+    border: 1px solid black;
+}
+.arr_down{
+    background: white;
+}
+
+.arr_up{
+    background: white;
+}
+.approach_slider a:hover {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #F48039;
+    background: #F48039;
+}
+
+.my_bar {
+    background: #F48039;
+    height: 33px;
+    width: 2px;
+    position: absolute;
+    margin-left: -43px;
+    top: 0px;
+}

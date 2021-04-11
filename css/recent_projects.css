@@ -1,0 +1,305 @@
+.all-overflow {
+    overflow: hidden;
+}
+
+/* ====================================================== CSS RECENT PROJECT PART START ====================================================== */
+#recent_project .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 4px 50px rgb(0 0 0 / 5%);
+}
+
+#recent_project .white {
+    display: none;
+}
+
+#recent_project .black {
+    display: inline-block;
+}
+
+#recent_project .m-phon .phone {
+    color: #000;
+}
+
+#recent_project .m-phon .phone path {
+    fill: #000;
+}
+
+#recent_project .nav-item .nav-link {
+    color: #000;
+    line-height: 50px;
+}
+
+/* ====================================================== CSS RECENT PROJECT PART END ====================================================== */
+
+
+
+/* ====================================================== CSS RECENT PROJECT PART START ====================================================== */
+
+#recent_project .mh_about_project_{
+    padding-top: 150px;
+}
+
+#recent_project #mh_projects-1 {
+    
+}
+
+#recent_project #mh_projects-1 .padding-bottom{
+    padding-bottom: 100px;
+}
+
+/* ====================================================== CSS RECENT PROJECT PART END ====================================================== */
+
+
+
+/* ====================================================== CSS WE ARE HERE - CONTACT PART START ====================================================== */
+
+#recent-project-contact {
+    background: #f7f7f7;
+    padding-top: 125px;
+    padding-bottom: 95px;
+}
+
+#recent-project-contact .container {
+    max-width: 1380px;
+}
+
+#recent_project .mh_about_project_ p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+    padding: 0 65px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.recent-contact-part h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.recent-contact-part .from {
+    padding-top: 60px;
+}
+
+.recent-contact-part .from .form-label {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.recent-contact-part .from .form-control {
+    padding: 25px 0;
+    border: none;
+    border-bottom: 1px solid #DDDDDD;
+    border-radius: 0;
+    background: none;
+}
+
+.recent-contact-part .from .form-control::placeholder {
+    font-family: 'Rubik', sans-serif;
+    color: #BBBBBB;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.custom-inputs {
+    position: relative;
+}
+
+.custom-inputs input {
+    padding: 25px 0;
+    border: none;
+    border-bottom: 1px solid #DDDDDD;
+    border-radius: 0;
+    background: none;
+}
+
+.custom-file-input {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    margin: 0;
+    opacity: 0;
+}
+
+.custom-inputs .svg-inline--fa.fa-cloud-upload.fa-w-20.fa-3x {
+    position: absolute;
+    width: 30px;
+}
+
+.custom-file-label::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    height: calc(calc(2.25rem + 2px) - 1px * 2);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #989898;
+    content: "Aptitude professionnelle";
+    background-color: transparent;
+    border-left: none;
+    border-radius: 0 .25rem .25rem 0;
+    left: -21px;
+    font-weight: 300;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: "+ Add Attachment ";
+    color: #000;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.custom-file-label {
+    position: absolute;
+    top: 94px;
+    right: 0;
+    left: 0px;
+    z-index: 1;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+.custom-inputs .custom-file-label{
+    cursor: pointer;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+    box-shadow: inherit;
+}
+
+.custom-inputs.submit .btn {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    background: transparent;
+    padding-top: 35px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.recent-contact-part p {
+    font-family: 'Rubik', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-top: 60px;
+    padding-right: 87px;
+}
+
+.recent-contact-part .phone {
+    padding-top: 58px;
+}
+
+.recent-contact-part .phone svg {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.recent-contact-part .phone span {
+    font-family: 'Rubik', sans-serif;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 13px;
+}
+
+.phone p {
+    padding-top: 25px;
+    padding-right: 95px;
+}
+
+/* ====================================================== CSS WE ARE HERE - CONTACT PART END ====================================================== */
+
+
+
+
+/* ====================================================== MEDIA CSS RECENT PROJECT PART START ====================================================== */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+    #recent_project .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #recent_project .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    #recent_project .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #recent_project .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #recent_project .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #recent_project .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    
+
+
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    #recent_project .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #recent_project .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+}

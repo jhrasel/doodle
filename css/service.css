@@ -1,0 +1,228 @@
+
+.all-overflow {
+    overflow: hidden;
+}
+
+.navbar {
+    height: 80px;
+}
+
+#service .development .container {
+    max-width: 1380px;
+}
+
+#service #mh_footer .container {
+    max-width: 1380px;
+}
+
+#service #tiny_footer .container {
+    max-width: 1380px;
+}
+
+#service .navbar .phone {
+    color: #000;
+}
+
+#service .navbar .phone path {
+    fill: #000;
+}
+
+#service .navbar-nav .nav-item .nav-link {
+    color: #000;
+}
+
+.padding-top {
+    padding-top: 160px;
+}
+
+.development_texts h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.development a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.development_texts p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+    padding-bottom: 60px;
+    width: 85%;
+    padding-top: 10px;
+}
+
+.development_elements {
+    background-color: #f7f7f7;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.development_elements:hover {
+    background: #F48039;
+    color: white;
+}
+
+.development_elements:hover .development_elements h5 {
+    color: white;
+    text-decoration: none;
+}
+
+.development_elements svg path {
+    transition: .5s;
+}
+
+.development_elements:hover svg path {
+    fill: #f7f7f7;
+}
+
+.development_elements h5 {
+    font-size: 18px;
+    margin: 30px 5px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.development_icon {
+    margin: 30px 15px;
+}
+
+
+/* Code for advance development */
+
+.advance_development .development_texts p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.go {
+    margin-right: -10px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.development_elements:hover .go a {
+    text-decoration: none;
+    color: #FFF;
+    transition: .5s;
+}
+
+.development_elements:hover .go {
+    opacity: 1;
+    color: #FFF;
+}
+
+.advance_development {
+    padding-top: 85px;
+}
+
+
+/* =============================== MEDIA PART ===============================*/
+
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {
+    #service .navbar-toggler i {
+        color: #000 !important;
+    }
+    #service .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    .development_elements h5 {
+        font-size: 15px;
+    }
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+    #service .navbar-toggler i {
+        color: #000 !important;
+    }
+    #service .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    .development_texts {
+        text-align: center;
+    }
+    .development_texts p {
+        font-size: 15px;
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .development_elements h5 {
+        font-size: 15px;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    #service .navbar-toggler i {
+        color: #000 !important;
+    }
+    #service .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    .tiny_footer_logo span {
+        font-size: 15px;
+    }
+    .development_texts {
+        text-align: center;
+    }
+    .development_texts p {
+        font-size: 15px;
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .development_elements h5 {
+        font-size: 15px;
+    }
+}
+
+
+/* Extra small  (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    #service .navbar-toggler i {
+        color: #000 !important;
+    }
+    #service .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+    .development_texts h5 {
+        font-size: 30px;
+    }
+    .development_texts p {
+        font-size: 13px;
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .development_elements h5 {
+        font-size: 15px;
+    }
+    .advance_development .development_texts p {
+        font-size: 13px;
+    }
+    .development_texts {
+        text-align: center;
+    }
+    .development_elements h5 {
+        font-size: 15px;
+    }
+}

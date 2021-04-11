@@ -1,0 +1,123 @@
+@import 'css/common.css';
+
+/* =========================== CSS DIGITAL SOLUTION PART START =========================== */
+#digital-solution{
+    background: #ffffff;
+    padding-top: 228px;
+    padding-bottom: 175px;
+}
+#digital-solution .container{
+    max-width: 1380px;
+}
+.digital-part{
+    position: relative;
+    z-index: 9;
+}
+.digital-part p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 83px;
+    /* or 138% */
+    text-align: center;
+    color: #000000;
+    max-width:801px;
+    width: 100%;
+}
+
+.digital-part .digital-overlay{
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+/* =========================== CSS DIGITAL SOLUTION PART END =========================== */
+
+.container{
+    position: relative;
+}
+.image_container{
+    display: inline-block;
+    width: 100%;
+
+}
+.image_holder{
+    height:525px;
+    width: 525px;
+    width: 525px !important;
+    position: relative;
+    overflow:hidden;
+
+
+}
+.image_holder img{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 95%;
+    object-fit: cover;
+
+}
+.image_details  p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+    margin-top: 60px;
+    width:100%;
+    color: #666666;
+    margin: auto;
+    text-align: center;
+}
+#value_slider {
+    margin-top: 175px;
+}
+.values{
+    background: #F7F7F7;
+    padding: 53px 40px;
+    margin: 0px 15px;
+}
+.all_values{
+    margin-top: 60PX;
+}
+div.values_no{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 77px;
+    /* identical to box height */
+    
+    
+    color: #E2E2E2;
+}
+.values_heading h2{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 42px;
+color: #000000;
+width: 100%;
+max-width: 332px;;
+}
+.value_slider_heading{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 65px;
+/* identical to box height, or 162% */
+
+
+color: #000000;
+} 
+ .container {
+    max-width: 1380px;
+}

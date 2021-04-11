@@ -1,0 +1,586 @@
+@import 'common.css';
+
+/* Css started for single_second */
+#single_second {}
+
+.img_container {
+    position: relative;
+
+}
+
+.heading_and_desc h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    text-align: center;
+    color: #000000;
+}
+
+.heading_and_desc {
+    max-width: 465px;
+    width: 100%;
+    margin: auto;
+}
+
+.heading_and_desc p {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+    text-align: center;
+    color: #666666;
+}
+
+.img-container {
+    margin-top: 100px;
+}
+
+.img-container img {
+    position: absolute;
+}
+
+.img_container .img-responsive {
+    width: 100%;
+}
+
+.tech_images {
+    max-width: 442px;
+    width: 100%;
+    margin: auto;
+    margin-top: 65px;
+}
+
+#service .img_container{
+    padding-top: 180px;
+} 
+
+.tech_images span {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.tech_images span p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+}
+
+/* css ended for single_second */
+
+/* Css code started for product_challange */
+#product_challenge {
+    margin-top: 100px;
+}
+
+#music_app .music_app_texts .rignt-side{
+    text-align: right;
+    padding: 0;
+}
+
+#product_challenge h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+#product_challenge p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 513px;
+    width: 100%;
+    color: #666666;
+}
+
+#product_challenge img {
+    margin-top: 98px;
+}
+
+.tags ul li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.tags {
+    padding-top: 55px;
+}
+
+.tags ul {
+    padding: 0px;
+}
+
+.tags ul:last-child {}
+
+.tags ul li a {
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    padding: 0 32px;
+}
+
+.tags ul li a:before {
+    position: absolute;
+    content: ' ';
+    width: 21px;
+    height: 1px;
+    background: #F48039;
+    left: -1px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+/* Css code ended for prosuct_challamge  */
+
+.back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    display: none;
+    z-index: 99;
+}
+
+/* Css code for more_service started  */
+#more_service {
+    padding: 100px 0px;
+    padding-bottom: 125px;
+}
+
+#more_service h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+    color: #DDDDDD;
+}
+
+.next {
+    margin-top: 25px;
+}
+
+.next a {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.next span {
+    margin-left: 8px;
+}
+
+.back-to-top i {
+    height: 40px;
+    width: 40px;
+    background: #ff6e02;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+/* css code for more_service ended  */
+
+/* ====================================================== CSS WE ARE HERE - CONTACT PART START ====================================================== */
+
+#single_recent_project .navbar {
+    height: 80px;
+}
+
+#single_recent_project .navbar-nav .nav-item .nav-link {
+    color: #000;
+}
+
+.m-phon .phone {
+    color: #000 !important;
+}
+
+.m-phon .phone path {
+    fill: #000;
+}
+
+#single_recent_project .container {
+    max-width: 1380px;
+}
+
+#service {
+    padding-top: 150px;
+}
+
+
+
+#recent-project-contact {
+    background: #f7f7f7;
+    padding-top: 125px;
+    padding-bottom: 95px;
+}
+
+#recent-project-contact .container {
+    max-width: 1380px;
+}
+
+.recent-contact-part h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.recent-contact-part .from {
+    padding-top: 60px;
+}
+
+.recent-contact-part .from .form-label {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.recent-contact-part .from .form-control {
+    padding: 25px 0;
+    border: none;
+    border-bottom: 1px solid #DDDDDD;
+    border-radius: 0;
+    background: none;
+}
+
+.recent-contact-part .from .form-control::placeholder {
+    font-family: 'Rubik', sans-serif;
+    color: #BBBBBB;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.custom-inputs {
+    position: relative;
+}
+
+.custom-inputs input {
+    padding: 25px 0;
+    border: none;
+    border-bottom: 1px solid #DDDDDD;
+    border-radius: 0;
+    background: none;
+}
+
+.custom-file-input {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    margin: 0;
+    opacity: 0;
+}
+
+.custom-inputs .svg-inline--fa.fa-cloud-upload.fa-w-20.fa-3x {
+    position: absolute;
+    width: 30px;
+}
+
+.custom-file-label::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    height: calc(calc(2.25rem + 2px) - 1px * 2);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: #989898;
+    content: "Aptitude professionnelle";
+    background-color: transparent;
+    border-left: none;
+    border-radius: 0 .25rem .25rem 0;
+    left: -21px;
+    font-weight: 300;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: "+ Add Attachment ";
+    color: #000;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.custom-file-label {
+    position: absolute;
+    top: 94px;
+    right: 0;
+    left: 0px;
+    z-index: 1;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+    box-shadow: inherit;
+}
+
+.custom-inputs.submit .btn {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    background: transparent;
+    padding-top: 35px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.recent-contact-part p {
+    font-family: 'Rubik', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-top: 60px;
+    padding-right: 87px;
+}
+
+.recent-contact-part .phone {
+    padding-top: 58px;
+}
+
+.recent-contact-part .phone svg {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.recent-contact-part .phone span {
+    font-family: 'Rubik', sans-serif;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 13px;
+}
+
+.phone p {
+    padding-top: 25px;
+    padding-right: 95px;
+}
+
+/* ====================================================== CSS WE ARE HERE - CONTACT PART END ====================================================== */
+#service .container {
+    max-width: 1380px;
+}
+
+
+
+/* Code for music_app started from here  */
+#music_app {}
+
+.music_app_texts h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 65px;
+    /* or 162% */
+    max-width: 473px;
+    ;
+    width: 100%;
+    color: #000000;
+}
+
+#music_app .links_ {
+    display: inline-block;
+
+}
+
+#music_app .all_links_ {
+    margin-top: 50px;
+}
+
+#music_app .links_ li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#music_app .links_ li a {
+    color: #000000;
+    margin-right: 30px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.music_app_images {
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+#music_app .links_ li a.gray {
+    color: #999999;
+}
+
+.image_container {
+    margin-bottom: 30px;
+}
+
+
+/* Code for music_app ended from here  */
+
+
+
+
+/* ====================================================== RASEL MEDIA PART START ====================================================== */
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #single_recent_project .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #single_recent_project .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+
+
+
+}
+
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #single_recent_project .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #single_recent_project .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #single_recent_project .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #single_recent_project .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+    .music_app_texts h2 {
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .links_ ul{
+        padding: 0;
+        text-align: center;
+    }
+    #music_app .links_ li a {
+        margin-right: 0;
+    }
+    #product_challenge p {
+        font-size: 14px;
+    }
+    .tags ul li {
+        list-style: none;
+        float: left;
+        margin-right: 0px;
+        padding: 10px 0;
+    }
+    #more_service .next {
+        margin-top: 18px;
+    }
+    .next a {
+        font-size: 15px;
+
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #single_recent_project .navbar-toggler i {
+        color: #000 !important;
+    }
+
+    #single_recent_project .navbar-nav .nav-item .nav-link {
+        color: #FFF;
+    }
+
+    
+    .music_app_texts h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .links_ ul{
+        padding: 0;
+    }
+    .heading_and_desc p {
+        font-weight: 400;
+        font-size: 15px;
+    }
+    #product_challenge {
+        text-align: center;
+    }
+    #product_challenge h4 {
+        padding-top: 20px;
+    }
+    #product_challenge p {
+        font-size: 15px;
+    }
+    .tags ul li {
+        list-style: none;
+        float: left;
+        margin-right: 0px;
+        padding: 10px 0;
+    }
+    #more_service h2 {
+        font-size: 28px;
+        padding-top: 15px;
+    }
+}
